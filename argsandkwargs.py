@@ -1,4 +1,5 @@
-''' import base64
+''' below is the first program in comments encoding and decoding 
+import base64
 word = 'Hello raghu Hello how are you'
 wordencode = base64.b64decode(word.encode('utf-8',errors='strict'))
 #abc = word.encode('ASCII',errors='strict')
@@ -14,7 +15,7 @@ def myfun(*args):
 
 myfun(10,'abc',20,60)
 
-array_names = {'firstname':'Raghunathareddy', 'secondname':'Peddahothuru'}
+# array_names = {'firstname':'Raghunathareddy', 'secondname':'Peddahothuru'}
 
 
 def fun2(**kwargs):
